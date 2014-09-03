@@ -20,7 +20,7 @@ Today, when I tried to ```vagrant up``` a local box as what I usually do, it fai
 
 ### Error
 
-```
+~~~
 ==> default: Mounting NFS shared folders...
 The following SSH command responded with a non-zero exit status.
 Vagrant assumes that this means the command failed!
@@ -35,16 +35,16 @@ Stderr from the command:
 
 stdin: is not a tty
 mount.nfs: mount to NFS server '192.168.50.1:/Users/xuli/Projs/PHP/test' failed: timed out, giving up
-```
+~~~
 
 ### Solution
 
-```
+~~~ bash
 # vboxnetX is the name of Host-only Adapter.
 # You can find that in VirtualBox(Settings -> Network -> Adapter 2).
 sudo ifconfig vboxnetX down
 sudo ifconfig vboxnetX up
-```
+~~~
 
 ### Helpful resources
 
