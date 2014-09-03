@@ -7,6 +7,8 @@ tags: vagrant, nfs
 
 Today, when I tried to ```vagrant up``` a local box as what I usually do, it failed to mount nfs folder. After a lot of googling, I fixed that by simply restarting the network adapter.
 
+<!--more-->
+
 ### Environment
 
 - Host: Mac OS X 10.9.4
