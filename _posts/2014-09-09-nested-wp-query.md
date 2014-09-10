@@ -5,7 +5,7 @@ category: code
 tags: wordpress, WP_Query, loop
 ---
 
-I googled a lot for *how to nest two WP_Querys*. The closest solution I could find is [Loop within a loop](http://wordpress.stackexchange.com/questions/71724/loop-within-a-loop), but it only says "// restore the global $post from the previously created backup". After digging into the source code, I found the key method: ```$query->reset_postdata();```.
+I googled a lot for *how to nest two WP_Querys*. The closest solution I could find is [Loop within a loop](http://wordpress.stackexchange.com/questions/71724/loop-within-a-loop){:target="_blank"}, but it only says "// restore the global $post from the previously created backup". After digging into the source code, I found the key method: ```$query->reset_postdata();```.
 
 <!--more-->
 

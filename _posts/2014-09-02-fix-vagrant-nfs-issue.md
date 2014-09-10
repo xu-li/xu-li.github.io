@@ -48,6 +48,6 @@ sudo ifconfig vboxnetX up
 
 ### Helpful resources
 
-- [https://github.com/mitchellh/vagrant/issues/1093](https://github.com/mitchellh/vagrant/issues/1093)
-- [https://github.com/mitchellh/vagrant/issues/1744](https://github.com/mitchellh/vagrant/issues/1744)
-- [https://github.com/mitchellh/vagrant/issues/1941](https://github.com/mitchellh/vagrant/issues/1941)
+- [https://github.com/mitchellh/vagrant/issues/1093](https://github.com/mitchellh/vagrant/issues/1093){:target="_blank"}
+- [https://github.com/mitchellh/vagrant/issues/1744](https://github.com/mitchellh/vagrant/issues/1744){:target="_blank"}
+- [https://github.com/mitchellh/vagrant/issues/1941](https://github.com/mitchellh/vagrant/issues/1941){:target="_blank"}
