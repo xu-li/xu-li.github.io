@@ -23,11 +23,4 @@ This is due to the wrong format in package.json. You can find out which plugin i
 
 ### The module "ConfigParser" has been factored into "cordova-common". Consider update your plugin hooks.
 
-You can fix it by replacing
-~~~
-context.requireCordovaModule('cordova-lib/src/configparser/ConfigParser')
-~~~
-with
-~~~
-context.requireCordovaModule('cordova-common').ConfigParser
-~~~.
+You can fix it by replacing context.requireCordovaModule('cordova-lib/src/configparser/ConfigParser') with context.requireCordovaModule('cordova-common').ConfigParser.
